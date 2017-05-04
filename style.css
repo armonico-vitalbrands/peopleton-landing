@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Mayeka_Thin";
-    src: url("/peopleton-landing/fonts/Mayeka_Thin.otf");
+    src: url("fonts/Mayeka_Thin.otf");
 }
 @font-face {
     font-family: "Mayeka_Bold";
-    src: url("/peopleton-landing/fonts/Mayeka_Bold.otf");
+    src: url("fonts/Mayeka_Bold.otf");
 }
 
 html, body {
@@ -22,7 +22,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("/peopleton-landing/images/landingimage.png") no-repeat center;
+    background: url("images/landingimage.png") no-repeat center;
     background-size: cover;
 }
 .flex-item {
