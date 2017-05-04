@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Mayeka_Thin";
+    src: url("/peopleton-landing/fonts/Mayeka_Thin.otf");
+}
+@font-face {
+    font-family: "Mayeka_Bold";
+    src: url("/peopleton-landing/fonts/Mayeka_Bold.otf");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/peopleton-landing/images/landingimage.png") no-repeat center;
+    background-size: cover;
+}
+.flex-item {
+    width: auto;
+    text-align: center;
+}
+.flex-item img {
+    width: 50%;
+}
+p {
+    color: white;
+    align-self: flex-end;
+}
+.subtitle {
+    font-family: Mayeka_Thin, sans-serif;
+    font-size: 40px;
+}
+.info {
+    color: white;
+    font-family: Mayeka_Bold, sans-serif;
+    font-size: 20px;
+}
