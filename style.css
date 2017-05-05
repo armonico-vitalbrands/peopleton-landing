@@ -3,6 +3,10 @@
     src: url("fonts/Mayeka_Thin.otf");
 }
 @font-face {
+    font-family: "Mayeka_Regular";
+    src: url("fonts/Mayeka_Regular.otf");
+}
+@font-face {
     font-family: "Mayeka_Bold";
     src: url("fonts/Mayeka_Bold.otf");
 }
@@ -37,7 +41,7 @@ p {
     color: white;
 }
 .subtitle {
-    font-family: Mayeka_Thin, helvetica, sans-serif;
+    font-family: Mayeka_Regular, helvetica, sans-serif;
     font-size: 40px;
 }
 .info {
